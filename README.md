@@ -1,4 +1,8 @@
-# oop-gateway
+# oop-node-common
+
+A set of node classes that can be used when developing microservices for OpenInterop.
+
+## License
 
 Copyright (C) 2019 Blue Frontier IT Ltd
 
