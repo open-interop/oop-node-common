@@ -1,8 +1,6 @@
-const dotenv = require("dotenv");
+const Config = require("./lib/Config");
 
-dotenv.config();
-
-module.exports = {
-    errorExchangeName: process.env.OOP_ERROR_EXCHANGE_NAME,
-    jsonErrorQ: process.env.OOP_JSON_ERROR_Q,
-};
+module.exports = new Config({
+    errorExchangeName: "OOP_ERROR_EXCHANGE_NAME",
+    jsonErrorQ: "OOP_JSON_ERROR_Q"
+});
