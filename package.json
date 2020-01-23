@@ -36,5 +36,24 @@
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
       "commit-lint": "eslint"
     }
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "files": ["./*.js", "lib/*.js"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/open-interop/oop-node-common.git"
+  },
+  "keywords": [
+    "openinterop",
+    "connected",
+    "health",
+    "amr"
+  ],
+  "author": "Blue Frontier",
+  "bugs": {
+    "url": "https://github.com/open-interop/oop-node-common/issues"
+  },
+  "homepage": "https://github.com/open-interop/oop-node-common#readme"
 }
