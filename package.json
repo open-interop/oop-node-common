@@ -1,7 +1,7 @@
 {
   "name": "oop-node-common",
   "main": "main.js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Common libraries for node microservices in OpenIterop",
   "license": "AGPL-3.0",
   "scripts": {
