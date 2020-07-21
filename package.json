@@ -1,6 +1,6 @@
 {
   "name": "oop-node-common",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Common libraries for node microservices in OpenIterop",
   "author": "Daniel Young <daniel.young@bluefrontier.co.uk>",
   "license": "AGPL-3.0",
